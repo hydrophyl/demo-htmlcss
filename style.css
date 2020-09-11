@@ -53,8 +53,8 @@ a {
   padding: 10px 0;
 }
 .gallery-item {
-  height: 160px;
-  width: 20%;
+  height: 300px;
+  width: 300px;
   background-color: #6d344d;
   display: flex;
   align-items: center;
