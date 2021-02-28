@@ -11,8 +11,14 @@ a {
   text-decoration: none;
   color: violet;
 }
-.main{
-    text-align: center;
+.main {
+  text-align: center;
+}
+.banner {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  text-align: left;
 }
 .nav-bar {
   display: flex;
@@ -29,9 +35,9 @@ a {
   margin-right: 30px;
   line-height: 45px;
 }
-.wrapper{
-    max-width: 1024px;
-    margin: auto;
+.wrapper {
+  max-width: 1024px;
+  margin: auto;
 }
 /* chi trong trang home */
 .welcome {
@@ -101,35 +107,35 @@ a {
 }
 
 /* cho trang contact */
-.contact-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 50vh;
-    margin-top: 80px;
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50vh;
+  margin-top: 80px;
 }
-.contact-form input{
-    border: 1px solid #6d344d;
-    height: 2em;
-    border-radius: 10px;
-    width: 200px;
+.contact-form input {
+  border: 1px solid #6d344d;
+  height: 2em;
+  border-radius: 10px;
+  width: 200px;
 }
-.contact-form input:hover{
-    border: 1px solid green;
+.contact-form input:hover {
+  border: 1px solid green;
 }
-.contact-form button{
-    height: 30px;
-    width: 200px;
-    border: 1px solid #6d344d;
-    border-radius: 10px;
-    background-color: #261d20;
-    color: #ccc;
+.contact-form button {
+  height: 30px;
+  width: 200px;
+  border: 1px solid #6d344d;
+  border-radius: 10px;
+  background-color: #261d20;
+  color: #ccc;
 }
-.contact-form button:hover{
-    background-color: #664349;
+.contact-form button:hover {
+  background-color: #664349;
 }
-.contact-form button:focus{
-    background-color: #111;
+.contact-form button:focus {
+  background-color: #111;
 }
 /* chung cho nhieu trang */
 .footer {
